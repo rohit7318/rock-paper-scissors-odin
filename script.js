@@ -18,7 +18,6 @@ images.forEach((image) =>
       return;
     }
     game(image.dataset.image);
-    alert(image.dataset.image);
   })
 );
 
